@@ -7,4 +7,5 @@ RUN apk add python3 && npm install --global \
 cdktf-cli@latest \
 @cdktf/provider-aws
 
+# Entrypoint
 ENTRYPOINT ["/bin/ash"]
